@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Quick Guide to King Street, Charleston SC</title>
+  <meta name="description" content="A quick guide to King Street in Charleston, SC — Lower, Middle, and Upper King, plus tips for getting the most out of a visit.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --cream: #faf8f4;
+      --line: #e7e1d6;
+      --ink: #2b2620;
+      --accent: #a9784f;
+      --text-soft: #6b6259;
+    }
+    body {
+      background-color: #ffffff;
+      color: var(--ink);
+      font-family: 'Jost', sans-serif;
+      font-weight: 300;
+    }
+    h1, h2, h3, .display-font { font-family: 'Cormorant Garamond', serif; font-weight: 500; }
+
+    .navbar {
+      background-color: #fff !important;
+      border-bottom: 1px solid var(--line);
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+    }
+    .navbar-brand {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.6rem;
+      letter-spacing: 2px;
+      color: var(--ink) !important;
+      text-transform: uppercase;
+    }
+    .nav-link {
+      color: var(--ink) !important;
+      letter-spacing: 2px;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      margin-left: 1.25rem;
+    }
+    .nav-link:hover { color: var(--accent) !important; }
+
+    .hero { padding: 5rem 1rem 3.5rem; text-align: center; }
+    .hero-photo {
+      max-width: 900px;
+      height: 90px;
+      margin: 0 auto 3rem;
+      border-radius: 2px;
+      background: linear-gradient(120deg, #d8c3a5, #8a6a4a 55%, #5c4531);
+    }
+    .hero h1 { font-size: 2.9rem; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 1.25rem; }
+    .hero p.lead { color: var(--text-soft); max-width: 620px; margin: 0 auto; font-size: 1.08rem; line-height: 1.7; }
+
+    section { padding: 3.5rem 0; }
+    .section-heading { text-transform: uppercase; letter-spacing: 2px; color: var(--accent); font-size: 0.85rem; margin-bottom: 0.5rem; }
+    .section-title { font-size: 2.4rem; margin-bottom: 1rem; }
+
+    .district-block { border-top: 1px solid var(--line); padding: 2.5rem 0; }
+    .district-block:last-child { border-bottom: 1px solid var(--line); }
+    .district-name { font-size: 1.8rem; margin-bottom: 0.4rem; }
+    .district-range { text-transform: uppercase; letter-spacing: 2px; font-size: 0.78rem; color: var(--accent); margin-bottom: 1rem; }
+    .district-desc { color: var(--text-soft); line-height: 1.8; max-width: 700px; }
+
+    .tip-card {
+      background-color: var(--cream);
+      border: 1px solid var(--line);
+      border-radius: 2px;
+      padding: 1.5rem 1.75rem;
+      height: 100%;
+    }
+    .tip-card h4 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+    .tip-card p { color: var(--text-soft); font-size: 0.95rem; margin-bottom: 0; line-height: 1.6; }
+
+    footer { background-color: var(--cream); border-top: 1px solid var(--line); color: var(--text-soft); }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">King Street Guide</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <a class="nav-link" href="#districts">The Districts</a>
+        <a class="nav-link" href="#tips">Quick Tips</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <div class="hero-photo"></div>
+      <h1 class="display-font">A Quick Guide to King Street</h1>
+      <p class="lead">Charleston's main thoroughfare for shopping, dining, and history, split into three walkable districts. Here's how to make sense of it in one visit.</p>
+    </div>
+  </header>
+
+  <section id="districts">
+    <div class="container">
+      <div class="section-heading">Three Districts, One Street</div>
+      <h2 class="display-font section-title">Lower, Middle &amp; Upper King</h2>
+
+      <div class="district-block">
+        <h3 class="display-font district-name">Lower King &mdash; The Antiques District</h3>
+        <div class="district-range">Broad Street to Market Street</div>
+        <p class="district-desc">The oldest stretch of King Street, lined with antique shops, art galleries, and historic architecture that make it feel like a living museum. George C. Birlant &amp; Co. is one of the most recognized antique dealers here, and the annual Charleston Antiques Show draws collectors from across the country. Stop into Millers All Day for a classic Charleston breakfast before you start browsing.</p>
+      </div>
+
+      <div class="district-block">
+        <h3 class="display-font district-name">Middle King &mdash; The Fashion District</h3>
+        <div class="district-range">Market Street to Calhoun Street</div>
+        <p class="district-desc">The retail heart of King Street, anchored by Marion Square. Expect a mix of national retailers like Anthropologie, Kate Spade, and J. Crew alongside local boutiques such as Hampden Clothing and Candlefish. On the second Sunday of most months, this stretch closes to traffic for a pedestrian-only event with outdoor dining and street performers.</p>
+      </div>
+
+      <div class="district-block">
+        <h3 class="display-font district-name">Upper King &mdash; The Design &amp; Dining District</h3>
+        <div class="district-range">Calhoun Street to Spring Street</div>
+        <p class="district-desc">The newest and trendiest section, packed with some of the city's best-regarded restaurants, including The Ordinary, Felix Cocktails et Cuisine, and The Darling Oyster Bar. It's also home to live music venues like the Charleston Music Hall and Music Farm, plus a growing lineup of independent boutiques for artisan goods and home decor.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="tips" style="background-color: var(--cream); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);">
+    <div class="container">
+      <div class="section-heading">Before You Go</div>
+      <h2 class="display-font section-title">Quick Tips</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="tip-card">
+            <h4 class="display-font">Walk, Don't Drive</h4>
+            <p>Parking is limited and metered spots are hard to find on weekends. King Street is easiest to enjoy on foot.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="tip-card">
+            <h4 class="display-font">Start at Marion Square</h4>
+            <p>It's the natural dividing line between Middle and Upper King, and hosts the Charleston Farmers Market on Saturdays in season.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="tip-card">
+            <h4 class="display-font">Pace Yourself</h4>
+            <p>The full street runs roughly a mile and a half. Pick one district to focus on rather than trying to cover all three in one outing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center py-4">
+    <div class="container">
+      <p class="mb-1">&copy; 2026 King Street Guide. All rights reserved.</p>
+      <p class="mb-0 small">An independent quick guide to King Street in Charleston, SC.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

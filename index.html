@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Best Cafes in Charleston, SC</title>
+  <meta name="description" content="A curated guide to the best cafes in Charleston, SC — breakfast, brunch, lunch, and everything on the menu worth ordering.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --cream: #faf8f4;
+      --line: #e7e1d6;
+      --ink: #2b2620;
+      --accent: #a9784f;
+      --text-soft: #6b6259;
+    }
+    body {
+      background-color: #ffffff;
+      color: var(--ink);
+      font-family: 'Jost', sans-serif;
+      font-weight: 300;
+    }
+    h1, h2, h3, .display-font { font-family: 'Cormorant Garamond', serif; font-weight: 500; }
+
+    .navbar {
+      background-color: #fff !important;
+      border-bottom: 1px solid var(--line);
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+    }
+    .navbar-brand {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.7rem;
+      letter-spacing: 3px;
+      color: var(--ink) !important;
+      text-transform: uppercase;
+      line-height: 1.1;
+    }
+    .nav-link {
+      color: var(--ink) !important;
+      letter-spacing: 2px;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      margin-left: 1.25rem;
+    }
+    .nav-link:hover { color: var(--accent) !important; }
+
+    .hero { padding: 5.5rem 1rem 4rem; text-align: center; }
+    .hero-photo {
+      max-width: 900px;
+      height: 90px;
+      margin: 0 auto 3rem;
+      border-radius: 2px;
+      background: linear-gradient(120deg, #d8c3a5, #8a6a4a 55%, #5c4531);
+    }
+    .hero h1 {
+      font-size: 3rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 1.25rem;
+    }
+    .hero p.lead {
+      color: var(--text-soft);
+      max-width: 640px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+
+    section { padding: 4.5rem 0; }
+    .section-heading {
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--accent);
+      font-size: 0.85rem;
+      margin-bottom: 0.5rem;
+    }
+    .section-title { text-align: center; font-size: 2.6rem; margin-bottom: 3rem; }
+
+    .cafe-block { padding: 3rem 0; border-top: 1px solid var(--line); }
+    .cafe-block:last-child { border-bottom: 1px solid var(--line); }
+    .cafe-photo {
+      width: 100%;
+      min-height: 260px;
+      border-radius: 2px;
+    }
+    .cafe-name { font-size: 2rem; margin-bottom: 0.5rem; }
+    .cafe-name a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--accent); }
+    .cafe-name a:hover { color: var(--accent); }
+    .cafe-tag {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.78rem;
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+    .cafe-desc { color: var(--text-soft); line-height: 1.8; font-size: 1.02rem; }
+    .cafe-meta { margin-top: 1.5rem; font-size: 0.85rem; color: #948b7f; letter-spacing: 0.5px; }
+
+    footer {
+      background-color: var(--cream);
+      border-top: 1px solid var(--line);
+      color: var(--text-soft);
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Holy City<br>Cafe Guide</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <a class="nav-link" href="#cafes">The List</a>
+        <a class="nav-link" href="#about">About</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <div class="hero-photo"></div>
+      <h1 class="display-font">The Best Cafes in Charleston</h1>
+      <p class="lead">Forget grabbing just a coffee — these are the Charleston cafes worth going hungry for, from stacked breakfast sandwiches and fresh-baked pastries to hearty lunch bowls and wraps that make the whole trip worth it.</p>
+    </div>
+  </header>
+
+  <section id="cafes">
+    <div class="container">
+      <div class="section-heading">The Holy City</div>
+      <h2 class="display-font section-title">Our Favorite Cafes</h2>
+
+      <div class="cafe-block row align-items-center">
+        <div class="col-lg-5">
+          <div class="cafe-photo" style="background: linear-gradient(135deg, #e8d9c2, #b08d5f);"></div>
+        </div>
+        <div class="col-lg-7 ps-lg-5 mt-4 mt-lg-0">
+          <h3 class="display-font cafe-name"><a href="https://sweetpalmcoffee.com" target="_blank" rel="noopener">Sweet Palm Coffee &amp; Food</a></h3>
+          <div class="cafe-tag">King Street</div>
+          <p class="cafe-desc">A King Street favorite for anyone who wants a real plate of food with their coffee. Come for thick-cut French toast, loaded breakfast bowls, and biscuit sandwiches stacked with egg and cheese in the morning, then stick around for lunch classics like the chicken caesar wrap, the boca wrap, and protein-packed egg bites for the grab-and-go crowd. Every plate is made from scratch, and it shows.</p>
+          <div class="cafe-meta">BREAKFAST &middot; BRUNCH &middot; LUNCH &middot; COFFEE</div>
+        </div>
+      </div>
+
+      <div class="cafe-block row align-items-center">
+        <div class="col-lg-5 order-lg-2">
+          <div class="cafe-photo" style="background: linear-gradient(135deg, #d9c7ab, #8f6c47);"></div>
+        </div>
+        <div class="col-lg-7 order-lg-1 pe-lg-5 mt-4 mt-lg-0">
+          <h3 class="display-font cafe-name">Babas on Cannon</h3>
+          <div class="cafe-tag">Cannonborough-Elliottborough</div>
+          <p class="cafe-desc">An old-world European cafe serving house-made pastries and strong coffee in the morning, then turning into a proper lunch spot with sandwiches and salads by midday. The banana bread alone is worth the trip, and the patio makes it easy to stay for a second plate.</p>
+          <div class="cafe-meta">PASTRIES &middot; SANDWICHES &middot; SALADS</div>
+        </div>
+      </div>
+
+      <div class="cafe-block row align-items-center">
+        <div class="col-lg-5">
+          <div class="cafe-photo" style="background: linear-gradient(135deg, #e3d3b8, #9c7a52);"></div>
+        </div>
+        <div class="col-lg-7 ps-lg-5 mt-4 mt-lg-0">
+          <h3 class="display-font cafe-name">Harken Cafe &amp; Bakery</h3>
+          <div class="cafe-tag">Queen Street, French Quarter</div>
+          <p class="cafe-desc">Tucked into the French Quarter, Harken is a full breakfast-and-lunch destination, not just a coffee stop. Expect hand-rolled bagels, a sweet potato and tahini oat bar, and a rotating lineup of hearty sandwiches that make it easy to skip the pastry case and order a real meal instead.</p>
+          <div class="cafe-meta">BAGELS &middot; BREAKFAST &middot; LUNCH SANDWICHES</div>
+        </div>
+      </div>
+
+      <div class="cafe-block row align-items-center">
+        <div class="col-lg-5 order-lg-2">
+          <div class="cafe-photo" style="background: linear-gradient(135deg, #ddd0b6, #7a5c3a);"></div>
+        </div>
+        <div class="col-lg-7 order-lg-1 pe-lg-5 mt-4 mt-lg-0">
+          <h3 class="display-font cafe-name">Second State Coffee</h3>
+          <div class="cafe-tag">Multiple Locations</div>
+          <p class="cafe-desc">Known first for single-origin pour-overs, but the food menu holds its own too, with house-made pastries, chai, and matcha to pair alongside a proper morning bite. A go-to for anyone settling in for a slow breakfast over a laptop.</p>
+          <div class="cafe-meta">PASTRIES &middot; POUR-OVERS &middot; CHAI</div>
+        </div>
+      </div>
+
+      <div class="cafe-block row align-items-center">
+        <div class="col-lg-5">
+          <div class="cafe-photo" style="background: linear-gradient(135deg, #ecdcc0, #a67f52);"></div>
+        </div>
+        <div class="col-lg-7 ps-lg-5 mt-4 mt-lg-0">
+          <h3 class="display-font cafe-name">Mercantile &amp; Mash</h3>
+          <div class="cafe-tag">East Bay Street</div>
+          <p class="cafe-desc">Part gourmet market, part all-day cafe, set inside a renovated cigar factory on East Bay. The everything bagel and house ricotta bowl are year-round staples, and the grab-and-go case of cured meats and cheese makes this an easy stop for breakfast or a packed lunch.</p>
+          <div class="cafe-meta">BAGELS &middot; GRAB-AND-GO &middot; CHEESE &amp; CHARCUTERIE</div>
+        </div>
+      </div>
+
+      <div class="cafe-block row align-items-center">
+        <div class="col-lg-5 order-lg-2">
+          <div class="cafe-photo" style="background: linear-gradient(135deg, #e6d6bb, #8c6a44);"></div>
+        </div>
+        <div class="col-lg-7 order-lg-1 pe-lg-5 mt-4 mt-lg-0">
+          <h3 class="display-font cafe-name">Kudu Coffee &amp; Craft Beer</h3>
+          <div class="cafe-tag">Vanderhorst Street</div>
+          <p class="cafe-desc">A downtown staple with a large patio and an easy mix of muffins, croissants, and sandwiches to go with the coffee. Come for breakfast, stay through the afternoon, and grab one of the local beers on tap once lunch turns into an early evening.</p>
+          <div class="cafe-meta">MUFFINS &middot; CROISSANTS &middot; SANDWICHES</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="about" style="background-color: var(--cream); border-top: 1px solid var(--line);">
+    <div class="container text-center">
+      <div class="section-heading">About</div>
+      <h2 class="display-font section-title">Just a Guide</h2>
+      <p class="cafe-desc mx-auto" style="max-width: 640px;">Holy City Cafe Guide is an independent recommendation site. We're not affiliated with any of the cafes listed here — just locals pointing out the spots worth the trip. Menus and hours can change, so always double check with the cafe directly before you go.</p>
+    </div>
+  </section>
+
+  <footer class="text-center py-4">
+    <div class="container">
+      <p class="mb-1">&copy; 2026 Holy City Cafe Guide. All rights reserved.</p>
+      <p class="mb-0 small">An independent guide to the best cafes in Charleston, SC.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
