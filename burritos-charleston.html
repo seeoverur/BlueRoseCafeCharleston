@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Best Burritos in Charleston, SC | Holy City Cafe Guide</title>
+  <meta name="description" content="Seven of the best burritos in Charleston, SC: pressed California-style, New Mexico smothered, shrimp, campechano, smoked barbecue and the best breakfast burrito downtown.">
+  <link rel="canonical" href="https://bluerosecafecharleston.com/best-burritos-charleston.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="The Best Burritos in Charleston, SC">
+  <meta property="og:description" content="Seven burritos worth the trip, from corner-store carne asada to the best breakfast burrito on King Street.">
+  <meta property="og:url" content="https://bluerosecafecharleston.com/best-burritos-charleston.html">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --cream: #faf8f4;
+      --line: #e7e1d6;
+      --ink: #2b2620;
+      --accent: #a9784f;
+      --text-soft: #6b6259;
+    }
+    body {
+      background-color: #ffffff;
+      color: var(--ink);
+      font-family: 'Jost', sans-serif;
+      font-weight: 300;
+    }
+    h1, h2, h3, .display-font { font-family: 'Cormorant Garamond', serif; font-weight: 500; }
+
+    .navbar {
+      background-color: #fff !important;
+      border-bottom: 1px solid var(--line);
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+    }
+    .navbar-brand {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.7rem;
+      letter-spacing: 3px;
+      color: var(--ink) !important;
+      text-transform: uppercase;
+      line-height: 1.1;
+    }
+    .nav-link {
+      color: var(--ink) !important;
+      letter-spacing: 2px;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      margin-left: 1.25rem;
+    }
+    .nav-link:hover, .nav-link.active { color: var(--accent) !important; }
+
+    .hero { padding: 5rem 1rem 3.5rem; text-align: center; }
+    .hero .back-link {
+      display: inline-block;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.78rem;
+      color: var(--accent);
+      text-decoration: none;
+      margin-bottom: 2rem;
+    }
+    .hero .back-link:hover { color: var(--ink); }
+    .hero h1 {
+      font-size: clamp(2.2rem, 5vw, 3rem);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 1.25rem;
+    }
+    .hero p.lead {
+      color: var(--text-soft);
+      max-width: 640px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+
+    section { padding: 4.5rem 0; }
+    .section-heading {
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--accent);
+      font-size: 0.85rem;
+      margin-bottom: 0.5rem;
+    }
+    .section-title { text-align: center; font-size: clamp(2rem, 4.5vw, 2.6rem); margin-bottom: 3rem; }
+
+    .cafe-block { padding: 3rem 0; border-top: 1px solid var(--line); }
+    .cafe-block:last-child { border-bottom: 1px solid var(--line); }
+    .rank {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 500;
+      font-size: clamp(3.5rem, 8vw, 5.5rem);
+      line-height: 1;
+      color: var(--accent);
+    }
+    .rank small {
+      display: block;
+      font-family: 'Jost', sans-serif;
+      font-size: 0.72rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #948b7f;
+      margin-top: 0.6rem;
+    }
+    .cafe-name { font-size: 2rem; margin-bottom: 0.5rem; }
+    .cafe-name a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--accent); }
+    .cafe-name a:hover { color: var(--accent); }
+    .cafe-tag {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.78rem;
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+    .cafe-desc { color: var(--text-soft); line-height: 1.8; font-size: 1.02rem; }
+    .cafe-desc a { color: var(--accent); }
+    .cafe-meta { margin-top: 1.5rem; font-size: 0.85rem; color: #948b7f; letter-spacing: 0.5px; }
+    .cafe-block.pick { background-color: var(--cream); padding-left: 1.5rem; padding-right: 1.5rem; }
+    .pick-label {
+      display: inline-block;
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.7rem;
+      padding: 0.25rem 0.7rem;
+      margin-bottom: 0.9rem;
+    }
+
+    .btn-guide {
+      display: inline-block;
+      border: 1px solid var(--ink);
+      color: var(--ink);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.78rem;
+      padding: 0.8rem 1.6rem;
+      text-decoration: none;
+      border-radius: 2px;
+    }
+    .btn-guide:hover { background-color: var(--ink); color: #fff; }
+
+    footer {
+      background-color: var(--cream);
+      border-top: 1px solid var(--line);
+      color: var(--text-soft);
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "The Best Burritos in Charleston, SC",
+    "url": "https://bluerosecafecharleston.com/best-burritos-charleston.html",
+    "dateModified": "2026-11-12",
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "Best Burritos in Charleston, SC",
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "numberOfItems": 7,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "item": { "@type": "Restaurant", "name": "Torres Superette", "address": { "@type": "PostalAddress", "streetAddress": "843 Rutledge Ave", "addressLocality": "Charleston", "addressRegion": "SC", "addressCountry": "US" } } },
+        { "@type": "ListItem", "position": 2, "item": { "@type": "Restaurant", "name": "The Press", "address": { "@type": "PostalAddress", "streetAddress": "221 Coming St", "addressLocality": "Charleston", "addressRegion": "SC", "addressCountry": "US" } } },
+        { "@type": "ListItem", "position": 3, "item": { "@type": "CafeOrCoffeeShop", "name": "Sweet Palm Coffee & Food", "url": "https://sweetpalmcoffee.com", "telephone": "+1-843-806-7342", "address": { "@type": "PostalAddress", "streetAddress": "471 King St", "addressLocality": "Charleston", "addressRegion": "SC", "postalCode": "29403", "addressCountry": "US" } } },
+        { "@type": "ListItem", "position": 4, "item": { "@type": "Restaurant", "name": "Rancho Lewis", "address": { "@type": "PostalAddress", "addressLocality": "Charleston", "addressRegion": "SC", "addressCountry": "US" } } },
+        { "@type": "ListItem", "position": 5, "item": { "@type": "Restaurant", "name": "Semilla", "address": { "@type": "PostalAddress", "streetAddress": "218 President St", "addressLocality": "Charleston", "addressRegion": "SC", "addressCountry": "US" } } },
+        { "@type": "ListItem", "position": 6, "item": { "@type": "Restaurant", "name": "El Pincho Taco", "address": { "@type": "PostalAddress", "streetAddress": "616B Meeting St", "addressLocality": "Charleston", "addressRegion": "SC", "addressCountry": "US" } } },
+        { "@type": "ListItem", "position": 7, "item": { "@type": "Restaurant", "name": "Home Team BBQ", "address": { "@type": "PostalAddress", "streetAddress": "1205 Ashley River Rd", "addressLocality": "Charleston", "addressRegion": "SC", "addressCountry": "US" } } }
+      ]
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Holy City<br>Cafe Guide</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="index.html#cafes">The List</a>
+        <a class="nav-link active" aria-current="page" href="best-burritos-charleston.html">Best Burritos</a>
+        <a class="nav-link" href="index.html#about">About</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <a class="back-link" href="index.html">&larr; Back to the Cafe Guide</a>
+      <h1 class="display-font">The Best Burritos in Charleston</h1>
+      <p class="lead">Charleston is better known for shrimp and grits than for anything wrapped in a tortilla, but the burrito scene has quietly gotten good. These are the seven we would send a friend to, each one known for a different style.</p>
+    </div>
+  </header>
+
+  <section id="burritos">
+    <div class="container">
+      <div class="section-heading">The Holy City</div>
+      <h2 class="display-font section-title">Seven Burritos Worth the Trip</h2>
+
+      <!-- 1 -->
+      <div class="cafe-block row align-items-center">
+        <div class="col-lg-2 text-lg-center">
+          <div class="rank">01<small>Best overall</small></div>
+        </div>
+        <div class="col-lg-10 ps-lg-4 mt-3 mt-lg-0">
+          <h3 class="display-font cafe-name">Torres Superette</h3>
+          <div class="cafe-tag">843 Rutledge Avenue &middot; Wagener Terrace</div>
+          <p class="cafe-desc">A neighborhood corner store with a kitchen in the back, and the burrito locals argue is the best in town. The carne asada is the order: a heavy flour tortilla packed with grilled steak, beans and seasoned rice that is good enough to eat on its own. There is usually a wait and seating is limited, so plan on taking it to go and eating it in Hampton Park a few blocks away.</p>
+          <div class="cafe-meta">CARNE ASADA &middot; CORNER STORE &middot; TAKEOUT</div>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="cafe-block row align-items-center">
+        <div class="col-lg-2 text-lg-center">
+          <div class="rank">02<small>Best pressed</small></div>
+        </div>
+        <div class="col-lg-10 ps-lg-4 mt-3 mt-lg-0">
+          <h3 class="display-font cafe-name"><a href="https://www.toasttab.com/local/order/the-tippling-house-221-coming-st" target="_blank" rel="noopener">The Press</a></h3>
+          <div class="cafe-tag">221 Coming Street &middot; Cannonborough-Elliottborough</div>
+          <p class="cafe-desc">A short menu built around one idea: a California-style burrito pressed on the grill until the tortilla turns crisp. Inside is cheese, french fries, avocado and pico de gallo with grilled steak or chicken, and there is a bean version for vegetarians. The fries are what set it apart. It runs as a pickup counter, so order ahead and collect it on the way to wherever you are headed.</p>
+          <div class="cafe-meta">STEAK &middot; CHICKEN &middot; CALIFORNIA STYLE</div>
+        </div>
+      </div>
+
+      <!-- 3 SWEET PALM -->
+      <div class="cafe-block pick row align-items-center">
+        <div class="col-lg-2 text-lg-center">
+          <div class="rank">03<small>Best breakfast burrito</small></div>
+        </div>
+        <div class="col-lg-10 ps-lg-4 mt-3 mt-lg-0">
+          <span class="pick-label">Best Breakfast Burrito</span>
+          <h3 class="display-font cafe-name"><a href="https://sweetpalmcoffee.com" target="_blank" rel="noopener">Sweet Palm Coffee &amp; Food</a></h3>
+          <div class="cafe-tag">471 King Street &middot; Upper King</div>
+          <p class="cafe-desc">The only morning burrito on this list, and the best one downtown. Sweet Palm is a King Street cafe with a real kitchen, and the burrito is made in house when you order it. The classic is eggs and cheese in a warm flour tortilla. The loaded version adds crispy potatoes, steak, cheddar, avocado and pico with a green sauce on the side, and the potatoes stay crisp inside the wrap, which is where most breakfast burritos fall apart.</p>
+          <p class="cafe-desc mb-0">Breakfast is served all day, the same fillings come as a bowl, and the combo pairs a personal-size burrito with an iced latte. See the <a href="https://www.sweetpalmcoffee.com/menu" target="_blank" rel="noopener">full menu</a> or order ahead for <a href="https://cash.app/order/$sweetpalmcoffeellc/pickup" target="_blank" rel="noopener">pickup</a>. It is also one of our <a href="index.html#cafes">favorite cafes in Charleston</a>.</p>
+          <div class="cafe-meta">EGG &amp; CHEESE &middot; STEAK &amp; POTATO &middot; ALL-DAY BREAKFAST &middot; COFFEE</div>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="cafe-block row align-items-center">
+        <div class="col-lg-2 text-lg-center">
+          <div class="rank">04<small>Best smothered</small></div>
+        </div>
+        <div class="col-lg-10 ps-lg-4 mt-3 mt-lg-0">
+          <h3 class="display-font cafe-name">Rancho Lewis</h3>
+          <div class="cafe-tag">Upper Peninsula</div>
+          <p class="cafe-desc">Pitmaster John Lewis grew up on the cooking of El Paso and New Mexico, and this is his restaurant for it. The burrito here is a knife-and-fork plate, covered in red or green Hatch chile sauce and melted cheese. Ask for it Christmas style to get both sauces. The flour tortillas are made in house, and the smoked meats come from the same hands behind Lewis Barbecue.</p>
+          <div class="cafe-meta">HATCH CHILE &middot; SMOTHERED &middot; SIT-DOWN</div>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="cafe-block row align-items-center">
+        <div class="col-lg-2 text-lg-center">
+          <div class="rank">05<small>Best seafood</small></div>
+        </div>
+        <div class="col-lg-10 ps-lg-4 mt-3 mt-lg-0">
+          <h3 class="display-font cafe-name">Semilla</h3>
+          <div class="cafe-tag">218 President Street &middot; Westside</div>
+          <p class="cafe-desc">A taco shop that started as a food truck and brought its Lowcountry habits with it. The shrimp burrito is the one to get: a twelve-inch flour tortilla with aromatic rice, black beans, queso fresco, cabbage and radish, finished with chipotle salsa, lime aioli and pickles. It is lighter and brighter than most of this list, and the right choice on a hot day.</p>
+          <div class="cafe-meta">SHRIMP &middot; CHIPOTLE SALSA &middot; LIME AIOLI</div>
+        </div>
+      </div>
+
+      <!-- 6 -->
+      <div class="cafe-block row align-items-center">
+        <div class="col-lg-2 text-lg-center">
+          <div class="rank">06<small>Best taqueria</small></div>
+        </div>
+        <div class="col-lg-10 ps-lg-4 mt-3 mt-lg-0">
+          <h3 class="display-font cafe-name"><a href="https://guide.charlestonmag.com/dining/el-pincho-taco/" target="_blank" rel="noopener">El Pincho Taco</a></h3>
+          <div class="cafe-tag">616B Meeting Street &middot; North Central</div>
+          <p class="cafe-desc">A family-run taqueria serving fillings that are hard to find elsewhere in the city. Order the campechano, which mixes carne asada with crumbled chorizo, or the cochinita pibil, pork slow-roasted Yucat&aacute;n style. The salsa bar matters here, so take your time with it.</p>
+          <div class="cafe-meta">CAMPECHANO &middot; COCHINITA PIBIL &middot; SALSA BAR</div>
+        </div>
+      </div>
+
+      <!-- 7 -->
+      <div class="cafe-block row align-items-center">
+        <div class="col-lg-2 text-lg-center">
+          <div class="rank">07<small>Best smoked</small></div>
+        </div>
+        <div class="col-lg-10 ps-lg-4 mt-3 mt-lg-0">
+          <h3 class="display-font cafe-name"><a href="https://hometeambbq.com" target="_blank" rel="noopener">Home Team BBQ</a></h3>
+          <div class="cafe-tag">1205 Ashley River Road &middot; West Ashley</div>
+          <p class="cafe-desc">A barbecue joint is an odd place for a burrito until you try this one. Home Team wraps its smoked meat in a flour tortilla and treats it like any other plate on the menu, which means the smoke does the work. It is the pick for anyone in the group who would rather be eating pulled pork anyway.</p>
+          <div class="cafe-meta">SMOKED MEAT &middot; BBQ BURRITO &middot; PATIO</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="about" style="background-color: var(--cream); border-top: 1px solid var(--line);">
+    <div class="container text-center">
+      <div class="section-heading">How We Picked</div>
+      <h2 class="display-font section-title">One Style Per Spot</h2>
+      <p class="cafe-desc mx-auto" style="max-width: 640px;">Every place on this list is here for a different kind of burrito, so the ranking is less about better and worse than about what you are in the mood for. Holy City Cafe Guide is an independent recommendation site and is not affiliated with any restaurant listed. Menus, prices and hours change, so check with the restaurant before you go.</p>
+      <a class="btn-guide mt-4" href="index.html">Back to the Cafe Guide</a>
+    </div>
+  </section>
+
+  <footer class="text-center py-4">
+    <div class="container">
+      <p class="mb-1">&copy; 2026 Holy City Cafe Guide. All rights reserved.</p>
+      <p class="mb-0 small">An independent guide to the best cafes in Charleston, SC. &middot; <a href="index.html">Home</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
